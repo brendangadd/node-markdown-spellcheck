@@ -25,34 +25,33 @@
     "format-check": "prettier --list-different \"./**/*.{js,json,md}\"",
     "test": "jest --coverage"
   },
-  "author": "Luke Page",
-  "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lukeapage/node-markdown-spellcheck.git"
+    "url": "https://github.com/brendangadd/node-markdown-spellcheck.git"
   },
   "bugs": {
-    "url": "https://github.com/lukeapage/node-markdown-spellcheck/issues"
+    "url": "https://github.com/brendangadd/node-markdown-spellcheck/issues"
   },
   "dependencies": {
-    "chalk": "^3.0.0",
-    "commander": "^4.0.1",
+    "chalk": "^4.1.0",
+    "commander": "^6.0.0",
     "dictionary-en-au": "^2.1.1",
     "dictionary-en-gb": "^2.1.1",
-    "dictionary-en-us": "^2.1.1",
-    "dictionary-es": "^1.2.3",
-    "globby": "^10.0.1",
+    "dictionary-en-us": "^3.0.0",
+    "dictionary-es": "^3.0.1",
+    "globby": "^11.0.1",
     "inquirer": "^7.0.1",
     "js-yaml": "^3.13.1",
     "marked": "^0.8.0",
     "nodehun": "^3.0.1"
   },
   "devDependencies": {
-    "@types/jest": "^24.0.25",
-    "eslint": "^6.8.0",
-    "eslint-plugin-jest": "^23.1.1",
-    "eslint-plugin-node": "^11.0.0",
-    "jest": "^24.9.0",
-    "prettier": "^1.19.1"
+    "@types/jest": "^26.0.5",
+    "eslint": "^7.5.0",
+    "eslint-plugin-jest": "^23.18.0",
+    "eslint-plugin-node": "^11.1.0",
+    "jest": "^26.1.0",
+    "prettier": "^2.0.5",
+    "yarn": "^1.22.4"
   }
 }
