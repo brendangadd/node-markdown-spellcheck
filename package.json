@@ -39,6 +39,7 @@
     "dictionary-en-au": "^2.1.1",
     "dictionary-en-gb": "^2.1.1",
     "dictionary-es": "^3.0.1",
+    "dictionary-fr": "^2.5.1",
     "globby": "^11.0.1",
     "inquirer": "^7.0.1",
     "js-yaml": "^3.13.1",
