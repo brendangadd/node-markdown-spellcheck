@@ -35,9 +35,9 @@
   "dependencies": {
     "chalk": "^4.1.0",
     "commander": "^6.0.0",
+    "dictionary-en": "^3.0.0",
     "dictionary-en-au": "^2.1.1",
     "dictionary-en-gb": "^2.1.1",
-    "dictionary-en-us": "^3.0.0",
     "dictionary-es": "^3.0.1",
     "globby": "^11.0.1",
     "inquirer": "^7.0.1",
