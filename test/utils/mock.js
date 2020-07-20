@@ -10,7 +10,7 @@ module.exports = {
     // Mock mistakes
     jest
       .spyOn(index, 'spellCallback')
-      .mockImplementation(function(src, file, callback, done) {
+      .mockImplementation(function (src, file, callback, done) {
         if (mistakes) {
           const next = () => {
             if (mistakes.length) {
